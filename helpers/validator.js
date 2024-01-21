@@ -12,6 +12,7 @@ const validateSeminar = (data) => {
     return validateCandidate.validate(data);
 };
 
+
 const validateSeminar2 = (data) => {
     const validateCandidate = hapiJoiValidator.object({
         name: hapiJoiValidator.string().max(20),
